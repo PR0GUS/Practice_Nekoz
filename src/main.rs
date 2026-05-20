@@ -35,4 +35,9 @@ fn main() {
     let birds = vec![1, 4, 4, 4, 5, 3];
     let most_frequent = hackerrank::task07::migratory_birds(&birds);
     println!("Most frequently sighted bird type ID: {}", most_frequent);
+
+    println!("\nTask 08 (Sales by Match):");
+    let socks = vec![10, 20, 20, 10, 10, 30, 50, 10, 20];
+    let pairs = hackerrank::task08::sock_merchant(9, &socks);
+    println!("Total matching pairs of socks: {}", pairs);
 }
