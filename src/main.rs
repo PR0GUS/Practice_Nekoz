@@ -30,4 +30,9 @@ fn main() {
     let scores = vec![10, 5, 20, 20, 4, 5, 2, 25, 1];
     let records = hackerrank::task06::breaking_records(&scores);
     println!("Records broken (Max, Min): {:?}", records);
+
+    println!("\nTask 07 (Migratory Birds):");
+    let birds = vec![1, 4, 4, 4, 5, 3];
+    let most_frequent = hackerrank::task07::migratory_birds(&birds);
+    println!("Most frequently sighted bird type ID: {}", most_frequent);
 }
