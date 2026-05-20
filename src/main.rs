@@ -25,4 +25,9 @@ fn main() {
     let b = vec![16, 32, 96];
     let result_sets = hackerrank::task05::get_total_x(&a, &b);
     println!("Total numbers between sets: {}", result_sets);
+
+    println!("\nTask 06 (Breaking the Records):");
+    let scores = vec![10, 5, 20, 20, 4, 5, 2, 25, 1];
+    let records = hackerrank::task06::breaking_records(&scores);
+    println!("Records broken (Max, Min): {:?}", records);
 }
