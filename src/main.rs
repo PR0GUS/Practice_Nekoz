@@ -19,4 +19,10 @@ fn main() {
     println!("\nTask 04 (Kangaroo):");
     let result_kanga = hackerrank::task04::kangaroo(0, 3, 4, 2);
     println!("Can they meet? {}", result_kanga);
+
+    println!("\nTask 05 (Between Two Sets):");
+    let a = vec![2, 4];
+    let b = vec![16, 32, 96];
+    let result_sets = hackerrank::task05::get_total_x(&a, &b);
+    println!("Total numbers between sets: {}", result_sets);
 }
