@@ -40,4 +40,11 @@ fn main() {
     let socks = vec![10, 20, 20, 10, 10, 30, 50, 10, 20];
     let pairs = hackerrank::task08::sock_merchant(9, &socks);
     println!("Total matching pairs of socks: {}", pairs);
+
+    println!("\nTask 09 (Diagonal Difference):");
+    let matrix = vec![vec![11, 2, 4], vec![4, 5, 6], vec![10, 8, -12]];
+    println!("Diagonal diff: {}", hackerrank::task09::diagonal_difference(&matrix));
+
+    println!("\nTask 10 (Drawing Book):");
+    println!("Min page turns: {}", hackerrank::task10::page_count(6, 2));
 }
