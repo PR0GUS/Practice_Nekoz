@@ -1,3 +1,8 @@
 /Cargo.lock
 /.idea/
 /target/
+
+# C# build outputs
+**/bin/
+**/obj/
+**/.vs/
